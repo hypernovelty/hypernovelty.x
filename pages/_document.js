@@ -9,6 +9,7 @@ class MyDocument extends Document {
                     <link rel="manifest" href="/manifest.json" />
                     <link rel="apple-touch-icon" href="/favicon.ico"></link>
                     <meta name="theme-color" content="#fff" />
+                    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
                 </Head>
                 <body>
                     <Main />
