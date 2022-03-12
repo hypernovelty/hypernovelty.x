@@ -1,1 +1,3 @@
-// export { some components }
+import Navbar from "./Navbar";
+
+export { Navbar }

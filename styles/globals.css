@@ -1,22 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=IBM+Plex+Serif:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=IBM+Plex+Serif:wght@700&display=swap');
-
 html,
 body {
+  background-color: rgb(16,8,24);
+}
+
+.plex-sans {
   font-family: -apple-system, BlinkMacSystemFont,'IBM Plex Sans', sans-serif;
+}
+
+.plex-serif {
   font-family: -apple-system, BlinkMacSystemFont,'IBM Plex Serif', serif;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
